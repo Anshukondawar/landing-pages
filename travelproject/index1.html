@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background:url('img/istockphoto-1412976847-612x612.jpg');
+            background-repeat: no-repeat;
+            background-size: 1400px 670px;
+            font-family: 'Playfair Display', serif;
+        }
+        .first h3{
+            font-size: 2em;
+    color: rgb(124, 40, 202);
+    margin: -11px;
+    padding-left: 19px;
+        }
+     .first{
+            /* border: 2px solid black; */
+    padding-top: 25px;
+    padding-left: 15px;
+    font-size: 1.2em;
+   display: inline-block;
+     }
+     .second{
+        position: absolute;
+    right: 40px;
+    padding: 1px;
+    display: inline-block;
+     }
+     .tag{
+        margin: 12px;
+    display: block;
+    width: 280px;
+     }
+     .navbar{
+        display: inline-block;
+    list-style-type: none;
+    overflow: hidden;
+   
+    padding: 16px;
+    width: 106%;
+    padding-right: 53px;
+    /* border: 2px solid green; */
+    margin-top: -9px;
+    font-size: 1.5em;
+    font-weight: 600;
+     }
+     .navbar li{
+        display: inline-block;
+    padding-right: 76px ;
+     }
+     .navbar li a, .dropbtn{
+        display: block;
+        color: black;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+     }
+     .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+    color: black;
+     }
+     .navbar li a:hover, .ss:hover .dropbtn{
+   background-color:rgb(194, 136, 248);
+     }
+     li.ss{
+        display: inline-block;
+     }
+     .dropdown{
+        display: none;
+    position: absolute;
+    /* display: inline-block; */
+    background-color:rgb(206, 157, 252) ;
+    width: 163px;
+    box-shadow: inset 0 0 7px 3px rgba(0, 0, 0, 0.2);
+    font-size: 0.79em;
+     }
+     .dropdown a{
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+     }
+     .dropdown a:hover{
+        background-color: grey;
+     }
+     .ss:hover .dropdown{
+        display: block;
+     }
+     
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="first">
+            <h3>TravelBay</h3>
+            <h4 class="tag">
+                The Best Travel Website For YOU
+            </h4>
+        </div>
+   
+   <div class="second">
+   <ul class="navbar">
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#" >Blog</a></li>
+    <li class="ss"><a href="#" class="dropbtn">Destinations</a>
+        <div class="dropdown">
+        <a href="#">Kerala </a>
+        <a href="#">Rajasthan</a>
+        <a href="#">Meghalaya</a>
+        <a href="#">Kashmir</a>
+        </div>
+    </li>
+    <li><a href="#" >Contact us</a></li>
+   </ul>
+   </div>
+   
+</header>
+
+</body>
+</html>
